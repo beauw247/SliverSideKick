@@ -1,124 +1,66 @@
-# What Should I Ask?
-https://sliver-side-kick.vercel.app/
-A beginner-friendly React portfolio project that helps people prepare for a call with their insurance company.
+# SilverSidekick
 
-The app uses sample insurance scenarios to suggest:
+A simple but meaningful React application designed to guide real-world support conversations, especially for elderly care and insurance-related calls.
 
-- Questions to ask during the call
-- Information to have ready
-- Suggested next steps
-- A short disclaimer
+🔗 Live App: https://sliver-side-kick.vercel.app/
 
-## Project Purpose
+---
 
-Many people feel unsure about what to ask when calling an insurance company. This project gives users a simple starting point so they can feel more prepared and organized before making a call.
+## What This Is
 
-This first version is intentionally simple. It is frontend-only, uses hardcoded sample content, and does not connect to any real insurance systems.
+SilverSidekick helps break down complex conversations into something more manageable.
 
-## Important Privacy Notes
+Instead of guessing what to ask during a call, this app provides:
+- Clear questions to ask
+- Key information to gather
+- Helpful context for real situations
 
-This app should not be used to collect private information.
+It’s designed to feel calm, simple, and actually useful in the moment.
 
-Do not enter:
+---
 
-- Social Security numbers
-- Medical records
-- Member ID numbers
-- Claim documents with private details
-- Private account information
-- Protected health information
+## Why I Built This
 
-The optional notes box is only for general reminders during the current browser session.
+I work in healthcare support, and a lot of calls involve confusion, frustration, or just not knowing what to ask next.
+
+This project came from that experience.
+
+I wanted to build something that:
+- Reflects real conversations
+- Reduces stress during calls
+- Makes information easier to navigate
+
+This isn’t just a practice project. It’s something I could genuinely see being used.
+
+---
 
 ## Features
 
-- Clear app title and purpose
-- Dropdown for insurance issue categories
-- Category buttons for quick selection
-- Optional notes box
-- Generated guidance for each category
-- General disclaimer
-- Simple, readable React code
-- Plain CSS styling
+- Scenario-based guidance for support calls
+- Suggested questions during conversations
+- Information checklist before and during calls
+- Simple and approachable interface
+- Real-world inspired use cases
 
-## Included Categories
-
-- Finding an in-network provider
-- Billing or unexpected cost
-- Prior authorization
-- Prescription coverage
-- Appointment or referral confusion
+---
 
 ## Tech Stack
 
 - React
 - Vite
-- Plain CSS
+- JavaScript
+- CSS
+- Git & GitHub
+- Vercel (deployment)
 
-## How to Run
+---
 
-Install dependencies:
+## How to Run Locally
+
+Clone the repo:
 
 ```bash
+git clone https://github.com/beauw247/SliverSidekick.git
+cd SliverSidekick
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
-```
-
-Then open the local URL shown in your terminal, usually:
-
-```text
-http://localhost:5173
-```
-
-## Available Scripts
-
-```bash
-npm run dev
-```
-
-Runs the app locally for development.
-
-```bash
-npm run build
-```
-
-Builds the app for production.
-
-```bash
-npm run preview
-```
-
-Previews the production build locally.
-
-## File Structure
-
-```text
-what-should-i-ask/
-+-- README.md
-+-- PROJECT_PLAN.md
-+-- index.html
-+-- package.json
-+-- src/
-    +-- App.jsx
-    +-- main.jsx
-    +-- styles.css
-```
-
-## Future Improvements
-
-- Add a print-friendly call checklist
-- Add larger text mode for accessibility
-- Add Spanish language sample content
-- Let users copy questions to a clipboard
-- Add unit tests for category data
-- Add more sample insurance scenarios
-- Save general notes locally with clear user consent
-
-## Disclaimer
-
-This project provides general educational guidance using sample scenarios only. It is not medical, legal, financial, or insurance advice. Users should confirm details directly with their insurance company, provider, or another qualified professional.
