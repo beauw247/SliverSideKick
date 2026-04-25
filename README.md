@@ -1,5 +1,7 @@
 # SilverSidekick
+## Preview
 
+![SilverSideKick Preview](./SILVER.png)
 A simple but meaningful React application designed to guide real-world support conversations, especially for elderly care and insurance-related calls.
 
 🔗 Live App: https://sliver-side-kick.vercel.app/
